@@ -2,6 +2,5 @@ package com.bridgelabz.stacks;
 
 import com.bridgelabz.*;
 
-public class Stacks extends LL {
-	
+public class Stacks extends LL {	
 }

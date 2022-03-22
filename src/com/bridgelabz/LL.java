@@ -29,6 +29,10 @@ public class LL {
 		newNode.next = head;
 		head = newNode;
 	}
+	
+	public void enqueue(int data) {
+		addLast(data);
+	}
 
 	protected void addLast(int data) {
 		Node newNode = new Node(data);
@@ -54,6 +58,10 @@ public class LL {
 		System.out.println(head.data);
 		deleteFirst();
 		
+	}
+	
+	public void dequeue() {
+		deleteFirst();
 	}
 	
 	protected void deleteFirst() {
